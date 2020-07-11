@@ -5,7 +5,7 @@ MD5(“img.jpg”): 4bdba9f047cb651b3645cfe6a41666ba
 
 # Solution 
 When the image was opened, it was just a black picture with no content. Exiftools is then used next to determine if there is anything hidden in the metadata. 
-```
+````
 ExifTool Version Number         : 11.92
 File Name                       : img.jpg
 Directory                       : .
@@ -84,9 +84,8 @@ Date/Time Original              : 2019:11:04 13:57:06.509944
 Modify Date                     : 2019:11:04 13:57:06.509944
 Thumbnail Image                 : (Binary data 1350 bytes, use -b option to extract)
 Focal Length                    : 4.1 mm
-
-```
+````
 Indeed, there is a text that looks like the flag but it is mirrored. By flipping the text, we got the flag. 
-```
+````
 02CDDC{yhp4rg07ohp_5i_EmOs3wa} - > CDDC20{pho70gr4phy_i5_aw3sOmE}
-```
+````
