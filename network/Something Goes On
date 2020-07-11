@@ -5,10 +5,6 @@
 # Solution 
 Using WireShark, it can be determined there was a FTP connection and users are transferring files. A particular file, secret.bin stands out. The file was then retrieved. 
 Steps on how to retrive the FTP file can be found [here](https://unit42.paloaltonetworks.com/using-wireshark-exporting-objects-from-a-pcap/).
-````
 
-````
 Indeed, there is a text that looks like the flag but it is mirrored. By flipping the text, we got the flag. 
-````
-02CDDC{yhp4rg07ohp_5i_EmOs3wa} - > CDDC20{pho70gr4phy_i5_aw3sOmE}
-````
+
