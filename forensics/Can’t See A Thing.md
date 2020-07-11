@@ -2,7 +2,7 @@
 What kind of lousy photographer takes terrible pictures like these?
 MD5(“img.jpg”): 4bdba9f047cb651b3645cfe6a41666ba
 # Attached file 
-
+[img.jpg (download)](https://github.com/mashmllo/CDDC2020-Writeup/blob/master/attachment/forensic/img.jpg)
 # Solution 
 When the image was opened, it was just a black picture with no content. Exiftools is then used next to determine if there is anything hidden in the metadata. 
 ````
