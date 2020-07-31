@@ -9,7 +9,7 @@ Decrypted text does not include the flag format “CDDC20{}”. Add in the flag 
 ## Solution 
 
 Since the title of the challenge states Julius, it can be implied that Caesar Cipher is used. Using an [online decrypter](https://cryptii.com/pipes/caesar-cipher), the hash is decrypted. 
-![flag]()
+![flag](https://github.com/mashmllo/CDDC2020-Writeup/blob/master/crypto/My%20Best%20Friend%2C%20Julius!/flag_caesar.jpg)
 
 ## Flag
 
