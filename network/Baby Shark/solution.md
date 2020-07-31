@@ -3,7 +3,7 @@
 ## Description
 
 Recently the Resistance Fighters have discovered this new thing called Wireshark, it seems to be some kind of tool used for analysing network packets.
-We tried to capture a little snippet of traffic while browsing the web just to check out its capabilities. Let’s check out what it can do.
+We tried to capture a little snippet of traffic while browsing the web just to check out its capabilities. Let’s check out what it can do. <br>
 MD5(“easy.pcap”): aa16be8f7032586d5bfc675e9ac8e982
 
 ## Attached files 
