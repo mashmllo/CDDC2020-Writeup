@@ -8,7 +8,7 @@ The company’s name is UnduplicitousCorp, sounds kinda fishy. Let’s conduct s
 ## Solution
 
 By googling the company's name, UnduplicitousCorp, the flag is shown in the search result. 
-![flag]()
+![flag](https://github.com/mashmllo/CDDC2020-Writeup/blob/master/OSINT/Better%20Alternative%20Than%20TV/flag_yt.jpg)
 
 ## Flag
 
