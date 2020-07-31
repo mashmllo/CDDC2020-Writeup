@@ -1,8 +1,9 @@
-# MD5 hash of the file 
+# Something Goes On
+## MD5 hash of the file 
 5f76953e753ffd56eae5532d63b7a391
-# Attached file 
+## Attached file 
 [analyze.pcap](https://github.com/mashmllo/CDDC2020-Writeup/blob/master/attachment/network/analyse.pcap)
-# Solution 
+## Solution 
 Using WireShark, it can be determined there was a FTP connection and users are transferring files. A particular file, secret.bin stands out. The file was then retrieved. 
 Steps on how to retrive the FTP file can be found [here](https://unit42.paloaltonetworks.com/using-wireshark-exporting-objects-from-a-pcap/).
 ![ftp connection](https://github.com/mashmllo/CDDC2020-Writeup/blob/master/network/Something%20Goes%20On/ftp%20connections.jpg)
@@ -15,3 +16,6 @@ Upon further investigation on the TCP transaction, it is shown that the attacker
 ![TCP Stream](https://github.com/mashmllo/CDDC2020-Writeup/blob/master/network/Something%20Goes%20On/follow%20stream.jpg)
 After copying out the SSH private key and using the Openssl command in linux, we got the flag.
 ```openssl rsautl -decrypt -inkey priv.pem -in secret.bin -out flag.txt```
+
+## Flag
+CDDC20{STOP_STRUTTING_AROUND}
