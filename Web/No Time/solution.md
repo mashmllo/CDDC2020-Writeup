@@ -8,7 +8,7 @@ http://notime.chall.cddc2020.nshc.sg:1337/
 ## Solution
 
 When entering clicking on the website link given, a webpage is shown. In order to retrieve the flag, simply inspect the source code. 
-![flag]()
+![flag](https://github.com/mashmllo/CDDC2020-Writeup/blob/master/Web/No%20Time/flag_time.jpg)
 
 ## flag 
 
