@@ -5,7 +5,7 @@
 Well apparently, the CTO of Unduplicitous Corp love, love, LOVE GIFs! ;)
 http://magifs.chall.cddc2020.nshc.sg:13373/
 
-##Solution
+## Solution
 
 When entering clicking on the website link given, a webpage prompting user to upload a gif file. After some searching, it shows that this webpage is vulnerable to Unrestricted File Upload Bypass.
 Since the webpage checks for gif file before uploading the file to the server, the header of the file containing the payload of a php syntax to execute command injection was changed to a gif file header. 
