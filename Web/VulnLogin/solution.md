@@ -10,9 +10,9 @@ Flag format is CDDC20{username_password}
 ## Solution 
 
 When visiting the website, a login page is shown. By viewing the source code of the webpage, credentials are provided in login.js. 
-![credentials in hash]()
+![credentials in hash](https://github.com/mashmllo/CDDC2020-Writeup/blob/master/Web/VulnLogin/login_creds.jpg)
 Since the hardcoded credentials are in hash, a [hash decrypter](https://hashes.com/en/decrypt/hash) is used to retrieve the credentials. 
-![cracked]()
+![cracked](https://github.com/mashmllo/CDDC2020-Writeup/blob/master/Web/VulnLogin/flag_login.jpg)
 
 ## Flag
 
