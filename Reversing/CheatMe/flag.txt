@@ -1,0 +1,7 @@
+Ran the .exe file in immunity debugger
+Used CheatEngine on the running process
+Automated the process to complete in 24minutes instead of 24hours
+
+
+CDDC20{T1ck-T0ck_T1ck-T0ck}
+
